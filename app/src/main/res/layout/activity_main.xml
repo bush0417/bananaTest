@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="362dp"
+        app:cardCornerRadius="150dp"
+        tools:ignore="MissingClass">
+
+        <ImageView
+            android:layout_width="365dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/img" />
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="40dp"
+        android:text="拍照分析"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="圖片分析"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/img_1" />
+
+
+</LinearLayout>
